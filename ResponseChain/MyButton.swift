@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MyButton.swift
 //  ResponseChain
 //
 //  Created by ky on 2018/11/12.
@@ -8,36 +8,45 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MyButton: UIButton {
   
-  @IBOutlet weak var container:ContainerView!
+  /*
+   // Only override draw() if you perform custom drawing.
+   // An empty implementation adversely affects performance during animation.
+   override func draw(_ rect: CGRect) {
+   // Drawing code
+   }
+   */
   
-  @IBOutlet weak var btn:MyButton!
-  
-  override func viewDidLoad() {
+  required init?(coder aDecoder: NSCoder) {
     
-    super.viewDidLoad()
+    print("init")
     
-    btn.addTarget(self, action: #selector(btnClick), for: UIControl.Event.touchDown)
-  }
-
-  @objc func btnClick() {
-
-    print("ViewController btnClick")
+    super.init(coder: aDecoder)
   }
   
   override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
     
-    print("touchesEnded", self.isFirstResponder)
+    print("Mybutton touchesEnded")
     
     super.touchesEnded(touches, with: event)
   }
   
   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-
-    print("View Controller touchesBegan")
+    
+    print("Mybutton touchesBegan")
     
     super.touchesBegan(touches, with: event)
+  }
+  
+  @objc func btnClick() {
+    
+    print("MyButton btnClick")
+  }
+  
+  @objc func dotest() {
+    
+    print("dotest")
   }
   
   override func pressesBegan(_ presses: Set<UIPress>, with event: UIPressesEvent?) {
@@ -45,4 +54,3 @@ class ViewController: UIViewController {
     super.pressesBegan(presses, with: event)
   }
 }
-

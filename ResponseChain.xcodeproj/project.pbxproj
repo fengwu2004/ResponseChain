@@ -12,6 +12,13 @@
 		2CE0ACFE21990EC600EC37E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE0ACFC21990EC600EC37E7 /* Main.storyboard */; };
 		2CE0AD0021990EC800EC37E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE0ACFF21990EC800EC37E7 /* Assets.xcassets */; };
 		2CE0AD0321990EC800EC37E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE0AD0121990EC800EC37E7 /* LaunchScreen.storyboard */; };
+		2CE0AD0B2199539A00EC37E7 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0AD0A2199539A00EC37E7 /* MyButton.swift */; };
+		2CE0AD0D2199684E00EC37E7 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0AD0C2199684E00EC37E7 /* ContainerView.swift */; };
+		2CE0AD0F21996EA000EC37E7 /* currentfirstresponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0AD0E21996EA000EC37E7 /* currentfirstresponder.swift */; };
+		2CE0AD112199A51000EC37E7 /* swizzleSendActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0AD102199A51000EC37E7 /* swizzleSendActions.swift */; };
+		2CE0AD13219A764F00EC37E7 /* BlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0AD12219A764F00EC37E7 /* BlueView.swift */; };
+		2CE0AD15219A772000EC37E7 /* PinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0AD14219A772000EC37E7 /* PinkButton.swift */; };
+		2CE0AD17219AC24C00EC37E7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0AD16219AC24C00EC37E7 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		2CE0ACFF21990EC800EC37E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CE0AD0221990EC800EC37E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CE0AD0421990EC800EC37E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE0AD0A2199539A00EC37E7 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		2CE0AD0C2199684E00EC37E7 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		2CE0AD0E21996EA000EC37E7 /* currentfirstresponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currentfirstresponder.swift; sourceTree = "<group>"; };
+		2CE0AD102199A51000EC37E7 /* swizzleSendActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swizzleSendActions.swift; sourceTree = "<group>"; };
+		2CE0AD12219A764F00EC37E7 /* BlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueView.swift; sourceTree = "<group>"; };
+		2CE0AD14219A772000EC37E7 /* PinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkButton.swift; sourceTree = "<group>"; };
+		2CE0AD16219AC24C00EC37E7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				2CE0ACFF21990EC800EC37E7 /* Assets.xcassets */,
 				2CE0AD0121990EC800EC37E7 /* LaunchScreen.storyboard */,
 				2CE0AD0421990EC800EC37E7 /* Info.plist */,
+				2CE0AD0A2199539A00EC37E7 /* MyButton.swift */,
+				2CE0AD0C2199684E00EC37E7 /* ContainerView.swift */,
+				2CE0AD0E21996EA000EC37E7 /* currentfirstresponder.swift */,
+				2CE0AD102199A51000EC37E7 /* swizzleSendActions.swift */,
+				2CE0AD14219A772000EC37E7 /* PinkButton.swift */,
+				2CE0AD12219A764F00EC37E7 /* BlueView.swift */,
+				2CE0AD16219AC24C00EC37E7 /* SecondViewController.swift */,
 			);
 			path = ResponseChain;
 			sourceTree = "<group>";
@@ -135,8 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE0AD13219A764F00EC37E7 /* BlueView.swift in Sources */,
+				2CE0AD15219A772000EC37E7 /* PinkButton.swift in Sources */,
+				2CE0AD112199A51000EC37E7 /* swizzleSendActions.swift in Sources */,
+				2CE0AD17219AC24C00EC37E7 /* SecondViewController.swift in Sources */,
+				2CE0AD0D2199684E00EC37E7 /* ContainerView.swift in Sources */,
 				2CE0ACFB21990EC600EC37E7 /* ViewController.swift in Sources */,
+				2CE0AD0F21996EA000EC37E7 /* currentfirstresponder.swift in Sources */,
 				2CE0ACF921990EC600EC37E7 /* AppDelegate.swift in Sources */,
+				2CE0AD0B2199539A00EC37E7 /* MyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
